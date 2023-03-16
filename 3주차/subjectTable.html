@@ -6,7 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <style>
-      table, thead, tbody, tfoot, tr, th, td { border: 2px solid black; border-collapse: collapse; text-align: center;} subject1 { background-color:lightgray; } subject2 { background-color:#FAF4C0; } th,td {width:50px;}
+      table, thead, tbody, tfoot, tr, th, td { border: 2px solid black; border-collapse: collapse; text-align: center;} 
+      .subject0 { background-color:lightgray; }
+      .subject1 { background-color:#EAD1F1; } 
+      .subject2 { background-color:#FAF4C0; } th,td {width:50px;}
+      .subject3 { background-color:#8CDBA2; }
+      .subject4 { background-color:#3CA4B1; }
+      .subject5 { background-color:#F2A57D; }
+      .subject6 { background-color:#4F89D7; }
+      .subject7 { background-color:#D9CC76; }
     </style> <!-- border-collapse: collapse 단선으로, 반대는 separate -->
 
     <title>HTML5 시간표</title> 
@@ -18,20 +26,20 @@
       <caption>&lt;1학기&gt; 시간표</caption>
 
       <thead>
-        <tr>
+        <tr style="background-color: gray">
           <th>시간</th> <th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
         </tr>
       </thead>
       
         <tbody>
-          <tr><td>1교시</td><td rowspan="2" class="subject2">오토마타</td><td></td><td rowspan="2" class="subject2">자료구조</td><td></td></tr>
-          <tr><td>2교시</td><td></td><td></td><td></td></tr>
-          <tr><td>3교시</td><td rowspan="2" class="subject2">디논회</td><td rowspan="2" class="subject2">자료구조</td><td></td><td></td><td></td></tr>
-          <tr><td>4교시</td><td></td><td></td></tr>
-          <tr><td>5교시</td><td></td><td>디논회</td><td rowspan="4" class="subject2">C++</td><td rowspan="2" class="subject2">인터넷응용</td></tr>
-          <tr><td>6교시</td><td></td><td></td><td></td></tr>
-          <tr><td>7교시</td><td rowspan="2" class="subject2">영어회화2</td><td></td><td>진로</td></tr>
-          <tr><td>8교시</td><td></td><td>인터넷</td><td></td></tr>
+          <tr><td class="subject0">1교시</td><td rowspan="2" class="subject1">오토마타</td><td></td><td rowspan="2" class="subject2">자료구조</td><td></td></tr>
+          <tr><td class="subject0">2교시</td><td></td><td></td><td></td></tr>
+          <tr><td class="subject0">3교시</td><td rowspan="2" class="subject3">디논회</td><td rowspan="2" class="subject2">자료구조</td><td></td><td></td><td></td></tr>
+          <tr><td class="subject0">4교시</td><td></td><td></td></tr>
+          <tr><td class="subject0">5교시</td><td></td><td class ="subject3">디논회</td><td rowspan="4" class="subject5">C++</td><td rowspan="2" class="subject6">인터넷응용</td></tr>
+          <tr><td class="subject0">6교시</td><td></td><td></td><td></td></tr>
+          <tr><td class="subject0">7교시</td><td rowspan="2" class="subject7">영어회화2</td><td></td><td class ="subject4">진로</td></tr>
+          <tr><td class="subject0">8교시</td><td></td><td class= "subject6">인터넷</td><td></td></tr>
         </tbody>
     </table>
   </body>
