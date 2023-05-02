@@ -20,7 +20,7 @@
       <ul class="ulClass">
         <li id="kdhong"><a href="#kd">홍길동</a></li>
         <li id="mrlee"><a href="#mr">이몽룡</a></li>
-        <li id="hdbyun"><a href="#hd">변학도</a></li>
+        <li id="hdbyun"><a href="#hd">변학동동</a></li>
       </ul>
     </nav>
 
