@@ -3,7 +3,7 @@ package org.javaro.lecture;
 public class Ex2_5 {
 
     public static void main(String[] args) {
-        System.out.println("OH");
+        System.out.println("논리식 결과 인쇄");
         
         System.out.println("2>2=" + (2 > 2)); // false
 
