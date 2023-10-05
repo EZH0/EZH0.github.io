@@ -8,7 +8,7 @@ class NavySoldier {
     // 생성자
     NavySoldier(String name) {
         this.name = name;
-        this.rank = "Private";
+        this.rank = "일병";
     }
 
     void setHeight(String height) {
@@ -20,10 +20,10 @@ class NavySoldier {
     }
 
     void swimming() {
-        System.out.println(name + " is swimming.");
+        System.out.println(name + " 잠수하기.");
     }
 
     void firing() {
-        System.out.println(name + " is firing.");
+        System.out.println(name + " 대포발사.");
     }
 }
