@@ -2,7 +2,7 @@ package org.javaro.lecture;
 public class Ex8_11 {
     public static void main(String[] args) {
         Cat4 aCat = new Cat4();  // 객체 생성
-        aCat.setName("아이유");
+        aCat.setName("야용이");
         System.out.println(aCat.getName() + "의 장점=" + aCat.crawling());
         System.out.println(aCat.getName() + "는 " + aCat.identify());
         System.out.println(aCat.getName() + "는 원래 " + aCat.identifyOrigin());
